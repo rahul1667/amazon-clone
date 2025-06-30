@@ -1,0 +1,487 @@
+#mainarea{
+    width:100%;
+    height:1000px;
+    background:#E3E6E6;
+}
+#toparea{
+    width:100%;
+    height:80px;
+    background:#131921;
+    display:flex;
+    align-items: center;
+    color:white;
+}
+
+#mainarea #toparea #top1 img{
+    margin-left:20px;
+    margin-top: 5px;
+    border:solid 2px black;
+    color:white;
+    align-items:center;
+    width:120px;
+    height:70px;
+    background: black;
+}
+/* #mainarea #toparea #top1 img{
+    width:120px;
+    height:100px;
+} */
+#mainarea #toparea #top2{
+    margin-left:4px;
+    margin-right: 20px;
+    border:solid 2px black;
+    color:white;
+    font-size:20px;
+    /* align-items:center; */
+}
+#mainarea #toparea .search{
+    color:white;
+    display:flex;
+
+}
+#mainarea #toparea .search input{
+    width:850px;
+    height:50px;
+    border-radius: 10px;
+}
+#mainarea #toparea .search  #a1{
+    width:100px;
+    height:44px;
+    background:#E6E6E6;
+    border-radius: 10px;
+
+}
+
+#mainarea #toparea .search  #a3{
+    
+    background:#FEBD69;
+    width:40px;
+    border-radius: 5px
+
+
+}
+
+#mainarea #toparea .search  #a3 i{
+    
+text-align: center;
+}
+#mainarea #toparea #top4{
+    padding:20px 8px;
+    background:transparent;
+    /* margin-left:20x; */
+    /* margin-right:10px; */
+}
+#mainarea #toparea #top4:hover{
+    border:solid 2px white;
+}
+
+#mainarea #toparea #top5{
+    padding:10px 15px;
+    background:transparent;
+
+    /* margin-left:20x; */
+    /* margin-right:20px; */
+}
+#mainarea #toparea #top5:hover{
+    border:solid 2px white;
+}
+#mainarea #toparea #top5 #top5a{
+    font-size: 12px;
+}#mainarea #toparea #top5 #top5b{
+    font-size: 20px;
+}
+#mainarea #toparea #top6{
+    padding:10px 10px;
+    background:transparent;
+    /* margin-left:20x; */
+    /* margin-right:10px; */
+}
+#mainarea #toparea #top6:hover{
+    border:solid 2px white;
+}
+#mainarea #toparea #top6a{
+    font-size: 12px;
+}
+#mainarea #toparea #top6b{
+    font-size: 20px;
+
+}
+
+#mainarea #toparea #top7{
+    padding:20px 30px;
+    background:transparent;
+    font-size:18px;
+}
+#mainarea #toparea #top7:hover{
+    border:solid 2px white;
+}
+#menuarea{
+    width:100%;
+    height:50px;
+    background:#232F3E;
+}
+#menuarea .menuarea1{
+    margin:7px;
+    justify-content:center;
+    margin-bottom:0px;
+    /* text-align:center; */
+    color:white;
+    background:transparent;
+    padding:10px 6px;
+    place-items: fixed;
+}
+
+#menuarea .menuarea1 #img1{
+    margin-top:8px;
+}
+
+#menuarea .menuarea1:hover{
+    border:solid 2px white;
+
+}
+#slidearea{
+    width:100%;
+    height:500px;
+    background:transparent;
+    background-image:url('slide.jpg');
+    background-size:1700px auto;
+}
+#bdbackground{
+    background:#E3E6E6;
+    height:3800px;
+    width:100%;
+}
+.bodyarea {
+    display:flex;
+    justify-content: space-evenly;
+}
+.box {
+    width:23%;
+    height:350px;
+    background-color: white;
+    margin-left:20px;
+    margin-bottom:20px;
+}
+.bodyarea .box .box_img1{
+    height:200px;
+    margin-right:30px;
+    margin-left:30px;
+    margin:20px;
+    /* background-repeat:no-repeat; */
+}
+.bodyarea .box .box_img1 .box-text{
+    margin-left:500px;
+}
+.bodyline2{
+    width:95%;
+    height:325px;
+    background:white;
+    align-items: center;
+    margin-left:40px;
+    margin-right:40px;
+    margin-top:35px;
+    overflow: auto;
+    scrollbar-width: none;
+
+
+}
+.bodyline2 .line2a{
+    display:flex;
+    float:left;
+    margin:20px;
+    width:100%;
+}
+.bodyline2 .line2a a{
+    margin-left:30px;
+    margin-top:26px;
+    text-decoration: none;
+}
+
+
+.bodyline2 .line2img{
+    width:56px;
+    height:44px;
+    display:flex;
+}
+.bodyline2 .line2img .l2img{
+    margin:20px;
+}
+#bdbackground #bdmid{
+    width: 65%;
+    height:300px;
+    display: flex;
+    background:white;
+    margin-top:40px;
+    align-items: center;
+    margin-left:15%;
+    /* border:solid 2px black; */
+}
+#bdbackground #bdmid .bdmida{
+    width:500px;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left:50px;
+    margin-right:100px;
+    display: flex;
+    
+}
+#bdbackground #bdmid img{
+    width:300px;
+    height:250px;
+    margin-bottom:0px;
+
+}
+#bdbackground #bdmid  .first{
+    /* border:2px solid black; */
+    /* width:100%; */
+    /* text-align: center; */
+    background: #F7F8F8;
+
+
+}
+#bdbackground #bdmid  .first img{
+    text-align: center;
+    margin-left:70px;
+    
+}
+
+
+#bdbackground #bdmid .bdmida    h3{
+    display:block;
+    /* margin-left:20px; */
+}
+#bdbackground #bdmid  .sec{
+    /* border:2px solid black; */
+    display:block;
+    width: 600px;
+    margin-top:0px;
+    height:190px;
+    margin-left:10px;
+
+}
+#bdbackground #bdmid  .sec a{
+    padding:12px;
+    background:#FFA41C;
+    /* margin-left:20px; */
+    border-radius: 15%;
+    size:20px;
+    text-decoration: none;
+
+}
+
+#bdbackground #last2bdarea{
+    width:100%;
+    height:500px;
+    background:red;
+    justify-content: space-evenly;
+    margin-top:30px;
+
+}
+#bdbackground #last2bdarea .bdarea_box2{
+    float:left;
+    width:22%;
+    height:480px;
+    background:white;
+    border:2px solid black;
+    margin:8px;
+    padding:3px 15px ;
+}
+#bdbackground #last2bdarea .bdarea_box2 .display{
+    width:95%;
+    height:200px;
+    border:1px solid black;
+}
+/* #bdbackground #last2bdarea .bdarea_box2 .display iframe{
+
+} */
+
+#bdbackground #last2bdarea .bdarea_box2 .small_box1{
+    float:left;
+    width:70px;
+    height:70px;
+    border:1px solid black;
+}
+#bdbackground #last2bdarea .bdarea_box2 .small_box1 a img{
+    height:100%;
+    width:100%;
+
+}
+#bdbackground #bdlastarea{
+    width:100%;
+    height:800px;
+    background:white;
+    margin-top:40px;
+
+}
+#bdbackground #bdlastarea #lbox{
+    width:98%;
+    height:650px;
+    border:0.5px solid black;
+    border-radius:1%;
+    background:white;
+    position:relative;
+    top: 50px;
+    left:20px;
+}
+#bdbackground #bdlastarea #lbox #toph3 h3 {
+    display:inline;
+    margin-left:30px;
+    background:transparent;
+}
+#bdbackground #bdlastarea #lbox #toph3 {
+    margin-top:30px;
+}
+
+
+#bdbackground #bdlastarea #lbox a{
+    margin-left:20px;
+    width:100%;
+    text-decoration:none;
+}
+
+#bdbackground #bdlastarea #lbox .lstbox{
+    margin:10px;
+    /* background-color: pink; */
+    height:500px;
+    width:200px;
+    float:left;
+    margin-top:30px;
+    margin-left:20px;
+    background:pink;
+}
+#bdbackground #bdlastarea #lbox .lstbox img{
+    width:100%;
+}
+
+#bdbackground #bdlastarea #lbox .lstbox #disc{
+    width:100%;
+    height:20px;
+    color:red;
+    padding:3px;
+    background: #000;
+}
+
+#bdbackground #bdlastarea #lbox .lstbox a{
+    text-decoration:none;
+}
+#bdbackground #bdlastarea #lbox .lstbox a:hover{
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+#backarea{
+    width:100%;
+    height:50px;
+    background:#485769;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+#lastarea2{
+    width:100%;
+    height:570px;
+    background:#232F3E;
+}
+#lastarea2 table{
+    border:2px solid black;
+    margin-left:30%;
+
+
+}
+
+#lastarea2 table tr ,th{
+    list-style-type: none;
+    color:white;
+    margin:30px;
+    margin-top:100px;
+    font-size:17px;
+    
+}
+#lastarea2 table ul li{
+    margin:10px;
+}
+#lastarea2 .tableimg{
+    padding: 5px 15px;
+    /* background:red; */
+    margin-left:100px;
+    color:white;
+    text-align: center;
+border :  0.5px solid white;
+}
+#lastarea2 #tablebottom{
+    margin-top:30px;
+    background:transparent;
+    height:200px;
+
+    border:0.5px solid white;
+    text-align: center;
+    line-height: 150px;
+}
+
+#lastarea {
+    width: 100%;
+    background-color: #131A22;
+    /* display: flex; */
+    /* justify-content: center; */
+    height:340px;
+}
+#lastarea #lastline1{
+    width:60px;
+    height:100px;
+    /* background:red; */
+    border:2px solid black;
+    display:flex;
+    margin-left:25%;
+}
+#lastarea #lastline1 .lastlinea{
+    margin-right:30px;
+    margin-left:20px;
+}
+#lastarea #lastline1 .lastlinea a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+#lastarea #lastline2{
+    width:60px;
+    height:100px;
+    border:2px solid black;
+    display:flex;
+    margin-left:25%;
+    margin-top:30px;
+}
+#lastarea #lastline2 .lastlineb{
+    margin-right:30px;
+    margin-left:20px;
+}
+#lastarea #lastline2 .lastlineb a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+#lastarea #lastline3  {
+    margin-left:500px;
+    margin-top:40px;
+}
+
+#lastarea #lastline3 .lastlinec {
+    margin-left:10px;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
